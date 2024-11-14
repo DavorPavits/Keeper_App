@@ -25,7 +25,6 @@ function App() {
   return (
     <div>
       <Header />
-      {notes.map(e => (
       <CreateArea onAdd={addNote}/>
       {notes.map((noteItem, index) => (
         <Note 
